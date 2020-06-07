@@ -6,7 +6,7 @@ def reverse_each_word(sentence)
   sentence_array.each do|word| 
     reversed_sentence = "#{reversed_sentence} #{reversed_word}"
    end
-p reversed_sentence.strip
+reversed_sentence.strip
 end
 
 def reverse_each_word(sentence)
@@ -18,5 +18,5 @@ def reverse_each_word(sentence)
     reversed_word = word.reverse
     reversed_sentence = "#{reversed_sentence} #{reversed_word}"
    end
-p reversed_sentence.strip
+reversed_sentence.strip
 end
